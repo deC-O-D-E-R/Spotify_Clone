@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+    list-style: none;
+    align-items: center;
+    height: 60px;
+    font-weight:normal;
+    font-size: large;
+
+}
+
+nav ul img{
+    width: 40px;
+    padding-left: 25px;
+}
+
+nav ul li{
+    padding-left: 30px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-size: larger;
+}
+.container{
+    min-height: 80vh;
+    background-color: black;
+    margin: 30px 150px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    text-align:center;
+    background-image: url(spotify_bgi.jpg);
+    
+}
+.container-{
+    margin: 20px 200px;
+    height: 340px;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    display: flex;
+    align-items: start;
+    padding: 8px;
+    background-image: url(img3.jpeg);
+}
+ .img{
+    width: 17vw;
+    height: 50vh;
+    margin-left: 26px;
+    margin-top: 26px;
+    box-shadow: -1px -1px 5px rgb(29, 185, 84);
+    box-shadow: 1px 1px 5px rgb(29, 185, 84);
+
+    border-radius: 10px;
+ }
+
+.bottom{
+    position: sticky;
+    height: 110px;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#range{
+    width: 90vw;
+    cursor: pointer;
+}
+.icons{
+    margin-top: 10px ;
+}
+.icons i{
+    cursor: pointer;
+}
+
+.songList{
+   
+}
+.songItem{
+    width: 200px;
+    margin: 7px 3.5px 5px 20px;
+    padding: 1px 5px;
+    padding-left: 10px;
+    background-color: rgb(29, 185, 84);
+    border-radius: 25px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.songItem i{
+    cursor: pointer;
+    color: black;
+}
+.songItem span{
+    margin-left: 10px;
+}
+.container h1{
+    color: antiquewhite;
+}
+
